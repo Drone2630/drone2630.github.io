@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: DATA-LOADING...
+subtitle: SUBTITULO DEL SITIO
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  HOLA COMO ESTAN
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://drone2630.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -35,7 +35,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
+            - company_name: Hospisoft
               company_logo: google.png
               company_url: https://google.com
               designation: Software Engineer
