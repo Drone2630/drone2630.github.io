@@ -24,7 +24,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: index.png
 author: David Rojas
 author_bio: Hola a todos :D #Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "bdavid2nd@live.com"
