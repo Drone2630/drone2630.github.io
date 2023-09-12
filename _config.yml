@@ -1,10 +1,10 @@
-title: THE INVISIBLE CAGE
-subtitle: Ciberseguridad Y Software
+title: DATA-LOADING...
+subtitle: SUBTITULO DEL SITIO
 description: >- # this means to ignore newlines until "baseurl:"
-  ESTA ES LA DESCRIPCION Y TODAVIA NO VEO DONDE SE ESTA PONIENDO LA DESCRIPCION
+  ESTA ES LA DESCRIPCION
 
 url: "https://drone2630.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "https://drone2630.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -24,14 +24,14 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: index.png
+author_logo: profile.png
 author: David Rojas
-author_bio: Hola a todos :D Esto tampoco se esta viendo #Hi, my name is John Doe. I built this site using devlopr-jekyll :D
+author_bio: Hola a todos :D #Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "bdavid2nd@live.com"
 author_location: Mexico
 author_website_url:
-typewrite-text: Nada ocurre para perjudicarte; todo ocurre para beneficiarte. Las dificultades y desafíos te sirven para tu propio bien #devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: index.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+typewrite-text: esto no se esta cambiando #devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
