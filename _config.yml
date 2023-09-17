@@ -30,7 +30,7 @@ author_bio: Hola a todos :D #Hi, my name is John Doe. I built this site using de
 author_email: "bdavid2nd@live.com"
 author_location: Mexico
 author_website_url:
-typewrite-text: Nada ocurre para perjudicarte; todo ocurre para beneficiarte. Las dificultades y desafíos te sirven para tu propio bien. #devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text:  #devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: sample.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
