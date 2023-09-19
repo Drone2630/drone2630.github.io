@@ -2,7 +2,7 @@
 layout: post
 title:  "Maquina Blue Hackthebox (metaesploit)"
 summary: "Guia para resolver la maquina Blue de la plataforma de hackthebox"
-author: David Rojas
+author: drone
 date: '2023-09-18'
 category: ['hacking','metaesploit', 'windows']
 tags: hacking
