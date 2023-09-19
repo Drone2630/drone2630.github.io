@@ -21,7 +21,7 @@ La vulnerabilidad que se presenta en esta maquina es **MS17-010** que se explota
 
 1.-Ping al objetivo, Por el **ttl** podemos darnos cuenta de que es una maquina windows.
 
-  ![Ping](/assets/maquinas/blue/01.jpg)
+  ![Ping](/assets/maquinas/01Blue.png)
 
 
 Then to render this category using link and pages. All we need to do is,
