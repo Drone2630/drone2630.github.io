@@ -16,14 +16,12 @@ permalink: /blog/adding-categories-tags-in-posts/
 
 Este es un walkthrough para la resolucion de la **Maquina Blue**. Es muy importente tener en cuenta la vulnerabilidad tan critica que presenta usar un **OS** con **Windows 7** si no se tienen presente los riesggos de no securitizar los posibles vectores de ataque.
 
-La vulnerabilidad que se presenta en es **MS17-010**
+La vulnerabilidad que se presenta en esta maquina es **MS17-010** que se explota mediante SMB
 <!--To add categories in blog posts all you have to do is add a **category** key with category values in frontmatter of the post :-->
 
 1.-Ping al objetivo, Por el **ttl** podemos darnos cuenta de que es una maquina windows.
 
-<div style="width: 50%; height: auto;">
   ![Ping](/assets/maquinas/blue/01.jpg)
-</div>
 
 
 Then to render this category using link and pages. All we need to do is,
