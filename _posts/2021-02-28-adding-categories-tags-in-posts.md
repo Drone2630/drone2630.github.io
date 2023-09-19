@@ -23,17 +23,7 @@ La vulnerabilidad que se presenta en esta maquina es **MS17-010** que se explota
   ![Ping](/assets/maquinas/01Blue.png)
 
   ```jsx
----
-layout: page
-title: Guides
-permalink: /blog/categories/your_category_name/
----
-
-<h5> Posts by Category : {{ page.title }} </h5>
-
-<div class="card">
 ping 10.10.10.40
-</div>
 ```
 
 
