@@ -6,7 +6,7 @@ author: drone
 date: '2023-09-18'
 category: ['hacking','metaesploit', 'windows']
 tags: hacking
-thumbnail: /assets/img/posts/code.jpg
+thumbnail:
 keywords: hackthebox blue machine guide
 usemathjax: false
 permalink: /blog/adding-categories-tags-in-posts/
@@ -16,12 +16,25 @@ permalink: /blog/adding-categories-tags-in-posts/
 
 Este es un walkthrough para la resolucion de la **Maquina Blue**. Es muy importente tener en cuenta la vulnerabilidad tan critica que presenta usar un **OS** con **Windows 7** si no se tienen presente los riesggos de no securitizar los posibles vectores de ataque.
 
-La vulnerabilidad que se presenta en esta maquina es **MS17-010** que se explota mediante SMB
-<!--To add categories in blog posts all you have to do is add a **category** key with category values in frontmatter of the post :-->
+La vulnerabilidad que se presenta en esta maquina es **MS17-010** que se explota mediante una debilidad en el protocolo SMB.
 
 1.-Ping al objetivo, Por el **ttl** podemos darnos cuenta de que es una maquina windows.
 
   ![Ping](/assets/maquinas/01Blue.png)
+
+  ```jsx
+---
+layout: page
+title: Guides
+permalink: /blog/categories/your_category_name/
+---
+
+<h5> Posts by Category : {{ page.title }} </h5>
+
+<div class="card">
+ping 10.10.10.40
+</div>
+```
 
 
 Then to render this category using link and pages. All we need to do is,
