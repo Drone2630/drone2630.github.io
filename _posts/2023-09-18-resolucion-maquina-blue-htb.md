@@ -17,7 +17,7 @@ permalink: /blog/adding-categories-tags-in-posts/
 Este es un walkthrough para la resolución de la **Maquina Blue**. Es muy importante tener en cuenta la vulnerabilidad tan crítica que presenta usar un **OS** con **Windows 7** si no se tienen presente los riesgos de no securitizar los posibles vectores de ataque.
 
 
-La vulnerabilidad que se presenta en esta máquina es **MS17-010** que se explota mediante una debilidad en el protocolo **SMBv1**. es un protocolo de red utilizado para compartir archivos e impresoras en una red local del cual hace usao windows.
+La vulnerabilidad que se presenta en esta máquina es **MS17-010** que se explota mediante una debilidad en el protocolo **SMBv1**. es un protocolo de red utilizado para compartir archivos e impresoras en una red local del cual hace uso windows.
 
 
 1.-Ping al objetivo, Por el **ttl** podemos darnos cuenta de que es una máquina windows.
@@ -44,7 +44,7 @@ nmap -p- --open --min-rate 5000 -vvv -n -Pn 10.10.10.40
 nmap -sCV -p135,139,445,49152,49153,49156 10.10.10.40
 ```
 
-4.-Vemos que el puerto **445** está expuesto, generalmente los servicios **SMB** se ejecutan en este puerto. Procederemos a analizar el servicio con una herramienta llamada **crackmapeexec** para obtener información más detallada del sistema objetivo. Podemos ver que es un sistema **Windows 7 de 64bits** y que está corriendo el servicio **SMBv1**.
+4.-Vemos que el puerto **445** está expuesto, generalmente los servicios **SMB** se ejecutan en este puerto. Procederemos a analizar el servicio con una herramienta llamada **crackmapexec** para obtener información más detallada del sistema objetivo. Podemos ver que es un sistema **Windows 7 de 64bits** y que está corriendo el servicio **SMBv1**.
 
 <img src="/assets/maquinas/04Blue.png" alt="Ping" width="135%">
 
@@ -60,7 +60,7 @@ crackmapexec smb 10.10.10.40
 nmap --script "vuln and safe" -p445 10.10.10.40
 ```
 
-6.- Ahora que savemos cual es el codigo del error iniciaremos un consola de **metaesploit** para buscar un **script** con el cual podamos explotar esta vulnerabilidad. Dentro de la buscqueda encotramos modulos de explotacion y auxiliares.
+6.- Ahora que sabemos cuál es el Código del error iniciaremos un consola de **metaesploit** para buscar un **script** con el cual podamos explotar esta vulnerabilidad. Dentro de la búsqueda encontramos módulos de explotación y auxiliares.
 
   ![Ping](/assets/maquinas/06Blue.png)
 
@@ -69,7 +69,7 @@ msfconsole
 msf6 > search CVE-2017-0143
 ```
 
-7.- Dentro de la consola de **metaesploit** usaremos un modulo auxiliar para vereificar que nostro objetivo sea realmente vulnerable al **ms10-010**. 
+7.- Dentro de la consola de **metaesploit** usaremos un módulo auxiliar para verificar que nuestro objetivo sea realmente vulnerable al **ms10-010**. 
 
   ![Ping](/assets/maquinas/07Blue.png)
 
@@ -77,7 +77,7 @@ msf6 > search CVE-2017-0143
 use 3
 ```
 
-8.- Ahora que estamos seguros de que nuestro objetivo es vulnerable usaremos un modulo de explotacion y procederemos a configurar el **exploit**. 
+8.- Ahora que estamos seguros de que nuestro objetivo es vulnerable usaremos un módulo de explotación y procederemos a configurar el **exploit**.  
 
   ![Ping](/assets/maquinas/08Blue.png)
 
@@ -85,7 +85,7 @@ use 3
 use 0
 ```
 
-9.- Y explotamos el objetivo. Se puede ver que ahora cuento con u8na consola de windowns y la ejecucion de comandos remotos.
+9.- Y explotamos el objetivo. Se puede ver que ahora cuento con una consola de windows y la ejecución de comandos remotos.
 
   ![Ping](/assets/maquinas/09Blue.png)
 
