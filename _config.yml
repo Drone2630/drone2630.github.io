@@ -1,7 +1,7 @@
 title: THE INVISIBLE CAGE;
 subtitle: Ciberseguridad y Software
 description: >- # this means to ignore newlines until "baseurl:"
-  ESTA ES LA DESCRIPCION
+  hacking
 
 url: "https://drone2630.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
