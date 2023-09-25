@@ -46,7 +46,7 @@ nmap -sCV -p135,139,445,49152,49153,49156 10.10.10.40
 
 4.-Vemos que el puerto **445** está expuesto, generalmente los servicios **SMB** se ejecutan en este puerto. Procederemos a analizar el servicio con una herramienta llamada **crackmapeexec** para obtener información más detallada del sistema objetivo. Podemos ver que es un sistema **Windows 7 de 64bits** y que está corriendo el servicio **SMBv1**.
 
-<img src="/assets/maquinas/04Blue.png" alt="Ping" width="95%">
+<img src="/assets/maquinas/04Blue.png" alt="Ping" width="99%">
 
   ```jsx
 crackmapexec smb 10.10.10.40
