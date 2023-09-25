@@ -36,7 +36,7 @@ hero_cover_img: sample.jpg # replace this for changing homepage cover (eg. try c
 # Experiences
 author_work_experiences:
             - company_name: Hospisoft
-              company_logo: google.png
+              company_logo: 
               company_url: 
               designation: Software Engineer
               description: 
