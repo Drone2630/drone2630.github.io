@@ -9,7 +9,7 @@ tags: hacking
 thumbnail:
 keywords: hackthebox blue machine guide
 usemathjax: false
-permalink: /blog/adding-categories-tags-in-posts/
+permalink: /blog/blue/
 ---
 
 ## Maquina Blue

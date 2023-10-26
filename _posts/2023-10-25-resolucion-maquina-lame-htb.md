@@ -9,7 +9,7 @@ tags: hacking
 thumbnail:
 keywords: hackthebox lame hackthebox guide
 usemathjax: false
-permalink: /blog/adding-categories-tags-in-posts/
+permalink: /blog/lame/
 ---
 
 ## Maquina Lame
