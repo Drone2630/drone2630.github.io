@@ -3,7 +3,7 @@ layout: post
 title:  "Maquina Lame Hackthebox (metaesploit)"
 summary: "Guia para resolver la maquina Lame de hackthebox"
 author: drone
-date: '2023-09-25'
+date: '2023-10-25'
 category: ['hacking','metaesploit', 'linux']
 tags: hacking
 thumbnail:
