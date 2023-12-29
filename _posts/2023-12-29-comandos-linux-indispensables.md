@@ -12,7 +12,7 @@ usemathjax: false
 permalink: /blog/cli/
 ---
 
-## Comandos Indispensables de Linu
+## Comandos Indispensables de Linux
 
 Diccionario rápido sobre comandos que me sirven del día a día.
 
