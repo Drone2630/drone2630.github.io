@@ -9,7 +9,7 @@ tags: hacking
 thumbnail:
 keywords: hackthebox lame hackthebox guide
 usemathjax: false
-permalink: /blog/lame/
+permalink: /blog/cli/
 ---
 
 ## Comandos Indispensables de Linu
